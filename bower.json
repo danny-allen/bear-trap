@@ -24,6 +24,5 @@
   ],
   "dependencies": {
     "jquery": ">=1.7",
-    "beartrap": "https://github.com/danny-allen/bear-trap.git"
   }
 }
