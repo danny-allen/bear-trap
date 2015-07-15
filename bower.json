@@ -1,0 +1,27 @@
+{
+	"name": "beartrap",
+	"main": [ "beartrap.js" ],
+	"version": "1.0",
+	"homepage": "https://github.com/danny-allen/beartrap",
+	"authors": [
+	  "Danny Allen"
+	],
+	"description": "JS helper to show which CSS breakpoint is active.",
+	"keywords": [
+		"beartrap",
+		"breakpoint helper",
+		"jquery"
+	],
+    "license": "MIT",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests",
+		"index.html"
+	],
+	"dependencies": {
+		"jquery": ">=1.7"
+	}
+}
