@@ -1,8 +1,6 @@
 {
   "name": "beartrap",
-  "main": [
-    "beartrap.js"
-  ],
+  "main": [ "beartrap.js" ],
   "version": "1.0",
   "homepage": "https://github.com/danny-allen/beartrap",
   "authors": [
@@ -21,7 +19,8 @@
     "bower_components",
     "test",
     "tests",
-    "index.html"
+    "index.html",
+    "README.md"
   ],
   "dependencies": {
     "jquery": ">=1.7",
