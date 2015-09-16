@@ -16,20 +16,20 @@ JS helper to show which CSS breakpoint is active.
 
 ## Installation
 
-```bash
-	bower install https://github.com/danny-allen/bear-trap.git --save-dev
+```sh
+bower install https://github.com/danny-allen/bear-trap.git --save-dev
 ```
 
 ## Usage
 
 ```js
-	(function($, window, document, undefined) {
+(function($, window, document, undefined) {
 
-		'use strict';
+	'use strict';
 
-		var bearTrap = new Helpers.BearTrap();
-	  
-	})(jQuery, window, document);
+	var bearTrap = new Helpers.BearTrap();
+  
+})(jQuery, window, document);
 ```
 
 ## Options
