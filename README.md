@@ -23,13 +23,7 @@ bower install https://github.com/danny-allen/bear-trap.git --save-dev
 ## Usage
 
 ```js
-(function($, window, document, undefined) {
-
-	'use strict';
-
-	var bearTrap = new Helpers.BearTrap();
-  
-})(jQuery, window, document);
+$('body').bearTrap();
 ```
 
 ## Options
