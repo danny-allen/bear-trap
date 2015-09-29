@@ -21,7 +21,7 @@
     "tests",
     "index.html",
     "README.md",
-    "beartrap.js",
+    "beartrap.js"
   ],
   "dependencies": {
     "jquery": ">=1.7"
