@@ -22,7 +22,6 @@
     "index.html",
     "README.md",
     "beartrap.js",
-    "bower.json",
   ],
   "dependencies": {
     "jquery": ">=1.7"
