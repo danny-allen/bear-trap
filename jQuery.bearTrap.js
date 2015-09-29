@@ -73,7 +73,7 @@
         /**
          * _init
          *
-         * Initial functionality that happens on instantiation of hotel data.
+         * Initial functionality that happens on instantiation of bearTrap.
          */
         _init: function() {
 
@@ -82,54 +82,6 @@
             
             //add the event listenrs
             this._attachListeners();
-        },
-
-
-        /**
-         * _hotelCodeExists
-         *
-         * Check for a hotel code - if one exists, return it.
-         * @return string The hotel code - should be two digits.
-         */
-        _hotelCodeExists: function(){
-
-            //set code
-            this._code = this.settings.codeAttribute.attr('ui-hotel-code');
-
-            //check for a hotel code of some kind
-            if(!this._code){
-                console.log('No hotel code found.');
-                return false;
-            }
-
-            //got one!
-            return this._code;
-        },
-
-
-        /**
-         * _getHotelData
-         *
-         * Get the data from the hotel as json so we can use it.
-         * 
-         * @return obj data The hotel data from the api call.
-         */
-        _getHotelData: function(callback){
-
-            //maintain reference to plugin
-            var self = this;
-
-            //get the json data
-            $.getJSON( '/api/hotels.php', function(data) {
-
-                //store the hotels data
-                self._hotels = data;
-                
-                //if callback is a function - run it!
-                if(typeof callback === 'function'){
-                    callback(self._hotels);
-                }
-            });
         },
 
 
